@@ -6,7 +6,7 @@ Mobify.UI = Mobify.UI || {};
     $.support = $.support || {};
 
     $.extend($.support, {
-        'touch': 'ontouchend' in document
+        'touch': 'ontouchend' in document,
         'pointer': (window.navigator.msPointerEnabled !== undefined)
     });
 
